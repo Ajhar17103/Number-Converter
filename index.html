@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Number Converter</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--styleCss-->
+    <link rel="stylesheet" type="text/css" href="./style/Style.css">
+</head>
+
+<body>
+
+    <div class="mx-5 bg-info py-5">
+
+        <div class="text-center py-5">
+            <h1>Number Converter</h1>
+            <hr />
+        </div>
+
+        <div id="form">
+
+            <form>
+                <div class="form-group ">
+                    <label>ENTER YOUR NUMBER</label>
+                    <input type="text" class="form-control" id='input'>
+                </div>
+                <div id="btn">
+                    <button type="submit" class="btn btn-primary my-3" id='binary'>Binary</button>
+                    <button type="submit" class="btn btn-danger my-3" id='octal'>Octal</button>
+                    <button type="submit" class="btn btn-success my-3" id='hex'>Hex</button>
+                </div>
+
+                <div class="form-group my-3">
+                    <label>RESULT</label>
+                    <input type="button" class="form-control text-left" id='result'>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src='./js/main.js'></script>
+</body>
+
+</html>
